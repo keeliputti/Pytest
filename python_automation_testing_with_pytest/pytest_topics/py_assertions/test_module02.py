@@ -5,7 +5,7 @@ def test_case01():
         assert (1/0)
         #assert 3 < 3
 def func1():
-    # change to "Exception func1 raised"
+    # print "Exception func1 raised" for passed case
     raise ValueError("IndexError func1 raised")
 
 def test_case02():
